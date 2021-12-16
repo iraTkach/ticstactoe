@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgray;
+    overflow: hidden;
+}
+
+table {
+    margin: 30% auto;
+}
+
+td {
+    border-radius: 3px;
+    border: 1px solid #333;
+    background-color:rgb(133, 206, 216);
+    transition: all 1s ease;
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 2px;
+}
+
+td:hover {
+    background-color: rgb(9, 10, 53);
+    box-shadow: 0 0 3px #ccc;
+}
+
+td img {
+    width: 46px;
+    height: 46px;
+    border-radius: 3px;
+    margin-top: 3px;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    height: 50px;
+    background: rgb(56, 113, 146);
+    width: 100%;
+    border-bottom: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button {
+    padding: 3px 10px;
+    margin-right: 20px;
+    border-radius: 3px;
+    border: 1px solid #999;
+    transition: all 1s ease;
+    cursor: pointer;
+    color: rgb(48, 90, 116);
+}
+
+button[disabled] {
+    transition: none !important;
+    color: #333 !important;
+}
+
+button:hover {
+    background-color: rgba(192, 192, 192, 0.349);
+    color: white;
+    box-shadow: 0 0 3px #ccc;
+}
+
+border:hover {
+    background-color: silver;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="play.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>TicTacToe Project</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <button id="newGame" onclick="newGame()">New Game</button>
+            <button id="back" onclick="back()" disabled>Back</button>
+            <button id="record" onclick="recordGame()" disabled>Record Game</button>
+            <button id="save" onclick="saveGame()" disabled>Save Game</button>
+            <button id="load" onclick="loadGame()" disabled>Load Game</button>
+        </div>
+    </div>
+    <div class="content">
+        <table id="tab" colspan="2">
+            <!-- <tr><td></td><td></td><td></td></tr>   -->
+        </table>
+    </div>
+
+</body>
+</html>
